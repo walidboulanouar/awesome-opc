@@ -1,0 +1,27 @@
+name: Check Star
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  check-star:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check whether PR author starred the repo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          if gh api --paginate "users/$AUTHOR/starred" --jq '.[].full_name' | grep -qix "$REPO"; then
+            gh pr comment "$PR" --repo "$REPO" --body "Hi @$AUTHOR, thanks for the PR and for starring this project! ⭐ / 感谢提交 PR，也感谢 Star 本项目！"
+          else
+            gh pr comment "$PR" --repo "$REPO" --body "Hi @$AUTHOR, thanks for the PR! Please ⭐ star this project first. / 感谢提交 PR！请先 ⭐ Star 本项目。"
+            echo "::error::$AUTHOR has not starred $REPO"
+            exit 1
+          fi

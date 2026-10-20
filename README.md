@@ -175,6 +175,7 @@ To keep this list useful and trustworthy:
 
 - <img src="https://www.google.com/s2/favicons?domain=bolt.new&sz=16" width="16" height="16" /> [Bolt.new](https://bolt.new/) — Full-stack app from a single prompt — frontend, backend, database, and hosting. Free tier includes 1M tokens/month and unlimited databases.
 - <img src="https://www.google.com/s2/favicons?domain=github.com&sz=16" width="16" height="16" /> [Claude Code](https://claude.com/claude-code) — Anthropic's terminal agent for complex engineering. Large refactors, architectural decisions, and debugging. The senior engineer in your terminal. (Product Hunt #1 2024)
+- <img src="https://www.google.com/s2/favicons?domain=curlshot.com&sz=16" width="16" height="16" /> [CurlShot](https://curlshot.com/) — Screenshot API for product pages, link previews, Open Graph images and PDF reports without running a headless browser yourself; free plan of 100 screenshots a month (2026), paid from $19/month.
 - <img src="https://www.google.com/s2/favicons?domain=cursor.sh&sz=16" width="16" height="16" /> [Cursor](https://cursor.sh/) — AI-first code editor with deep codebase understanding. Tab prediction goes beyond autocomplete — predicts next cursor position and code diffs. (Product Hunt Product of the Year 2024)
 - <img src="https://www.google.com/s2/favicons?domain=digitalocean.com&sz=16" width="16" height="16" /> [DigitalOcean](https://digitalocean.com/) — Simple cloud computing with $6/month starter VPS, good docs, and developer-friendly APIs.
 - <img src="https://www.google.com/s2/favicons?domain=github.com&sz=16" width="16" height="16" /> [GitHub Copilot](https://github.com/features/copilot) — Inline code completion that integrates with all major editors. The most widely adopted AI coding tool in the world.
@@ -214,6 +215,7 @@ To keep this list useful and trustworthy:
 
 ### Finance & Accounting
 
+- <img src="https://www.google.com/s2/favicons?domain=agentaos.ai&sz=16" width="16" height="16" /> [AgentaOS](https://agentaos.ai/) — Merchant of record that lets a solo founder sell SaaS, digital products or services worldwide with no company abroad, handling VAT and sales tax and paying out in 85+ countries (4.5% + €0.50 per sale, 2026).
 - <img src="https://www.google.com/s2/favicons?domain=aipay.alipay.com&sz=16" width="16" height="16" /> [Alipay AI Pay](https://aipay.alipay.com/) — AI-native payment solution by Alipay that enables AI agents to handle transactions seamlessly. 100M+ users, ideal for agentic commerce.
 - <img src="https://www.google.com/s2/favicons?domain=b.alipay.com&sz=16" width="16" height="16" /> [支付宝](https://b.alipay.com/) — Alibaba's payment platform. 0.6% fee, required for serving Chinese customers.
 - <img src="https://www.google.com/s2/favicons?domain=fondo.com&sz=16" width="16" height="16" /> [Fondo](https://www.fondo.com/) — AI-powered bookkeeping for startups. Automated categorization, monthly closes, tax preparation, and R&D tax credits.
